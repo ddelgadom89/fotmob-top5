@@ -18,10 +18,10 @@ from curl_cffi import requests
 # Para activar otra liga, quita el # de su línea.
 LEAGUES = {
     "serie_a": (55, "serie"),
-    # "premier_league": (47, "premier-league"),
-    # "laliga": (87, "laliga"),
-    # "bundesliga": (54, "bundesliga"),
-    # "ligue_1": (53, "ligue-1"),
+    "premier_league": (47, "premier-league"),
+     "laliga": (87, "laliga"),
+     "bundesliga": (54, "bundesliga"),
+     "ligue_1": (53, "ligue-1"),
 }
 
 # Categorías de portero: sirven para detectar porteros y luego se eliminan del CSV
